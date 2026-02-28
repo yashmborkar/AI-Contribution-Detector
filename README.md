@@ -64,26 +64,46 @@ Use pattern detection (language style, repetition, formatting) to identify AI-li
 
 ## 4. System Architecture
 
-        User
-         ↓
-Frontend (React Web App)
-         ↓
-Backend API (Node.js / Python)
-        ↓
-AI Detection Logic
-        ↓
-Database (Store commits & scores)
-        ↓
-Response back to User
-
-
 ### High-Level Flow
 
-User → Frontend → Backend → Detection Logic → Database → Response
+Developer/User  
+↓  
+Frontend (React Web App)  
+↓  
+Backend API (Node.js / Python)  
+↓  
+AI Detection Engine  
+↓  
+Database  
+↓  
+Analytics Dashboard  
+↓  
+Response to User  
+
+---
 
 ### Architecture Description
 
-Users submit commit messages or code snippets through the frontend. The backend processes input using rule-based or ML detection logic and stores results in a database. The system returns AI Likelihood Score and analytics.
+Our system has five main components:
+
+1. **Frontend (React Web App)**  
+   The user pastes a commit message or code snippet and clicks Analyze.
+
+2. **Backend API**  
+   Receives the request and sends the data to the detection engine.
+
+3. **AI Detection Engine**  
+   Uses rule-based logic to detect AI-style patterns and calculate an AI Likelihood Score.
+
+4. **Database**  
+   Stores commit data, AI scores, and analytics information.
+
+5. **Analytics Dashboard**  
+   Shows AI usage statistics like contributor trends and AI usage percentage.
+
+This architecture helps teams detect AI-generated contributions and maintain transparency in their repositories.
+
+---
 
 ### Architecture Diagram
 
@@ -169,7 +189,7 @@ HTML, CSS, JavaScript / React
 
 ### Backend
 
-Node.js / Python Flask
+Python Flask
 
 ### ML/AI
 
@@ -181,7 +201,7 @@ MongoDB / SQLite
 
 ### Deployment
 
-Vercel / Render / Localhost
+Vercel 
 
 ---
 
