@@ -64,6 +64,19 @@ Use pattern detection (language style, repetition, formatting) to identify AI-li
 
 ## 4. System Architecture
 
+        User
+         ↓
+Frontend (React Web App)
+         ↓
+Backend API (Node.js / Python)
+        ↓
+AI Detection Logic
+        ↓
+Database (Store commits & scores)
+        ↓
+Response back to User
+
+
 ### High-Level Flow
 
 User → Frontend → Backend → Detection Logic → Database → Response
