@@ -229,27 +229,23 @@ Vercel
 
 ### Checkpoint 2: Backend Development
 
-* Create detection logic
-* Build API endpoints
+* (To be added)
 
 ### Checkpoint 3: Frontend Development
 
-* Create UI for input/output
-* Display AI scores
+* (To be added)
 
 ### Checkpoint 4: Model Training
 
-* Improve rule-based detection
-* Test dataset
+* (To be added)
 
 ### Checkpoint 5: Model Integration
 
-* Connect frontend with backend
+* (To be added)
 
 ### Checkpoint 6: Deployment
 
-* Deploy app
-* Final demo
+* (To be added)
 
 ---
 
@@ -286,9 +282,9 @@ Vercel
 
 | Member Name | Role                    | Responsibilities                         |
 | ----------- | ----------------------- | ---------------------------------------- |
-| Yash Borkar | ----------------------- | ---------------------------------------- |
-| Sachit Kumar| ----------------------- | ---------------------------------------- |
-|Azmol Wasim Hussain | ----------------------- | ---------------------------------------- |
+| Sachit Kumar| Frontend                | ---------------------------------------- |
+|Azmol Wasim Hussain | Frontend, Backend| ---------------------------------------- |
+| Yash Borkar | Backend, Database       | ---------------------------------------- |
 
 ---
 
